@@ -1,0 +1,16 @@
+@import "./../assets/scss/colors.scss";
+
+.login {
+  padding: 10px;
+  height: 100%;
+  display: grid;
+  place-items: center;
+
+  .container {
+    padding: 50px;
+    width: fit-content;
+    border: 1px solid $colors_pDark;
+    border-radius: 4px;
+    background-color: $colors_pLight;
+  }
+}

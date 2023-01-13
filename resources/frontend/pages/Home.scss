@@ -1,0 +1,26 @@
+@import "./../assets/scss/colors.scss";
+@import "./../assets/scss/mainSizes.scss";
+
+.home {
+  padding: $standardSpace;
+
+  .search {
+    .search-component {
+      display: inline-block;
+    }
+  }
+
+  .result {
+    background-color: $colors_pLight;
+  }
+
+  .basket {
+    background-color: $colors_pLight;
+  }
+
+  .result,
+  .basket {
+    padding: $standardSpace * 2;
+    margin-top: $standardSpace * 2;
+  }
+}
